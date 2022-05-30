@@ -24,7 +24,7 @@ const LoggedOutView = (props) => {
 };
 
 const LoggedInView = (props) => {
-  console.log("heyy")
+  console.log("heyyy")
   if (props.currentUser) {
     return (
       <ul className="navbar-nav ml-auto">
